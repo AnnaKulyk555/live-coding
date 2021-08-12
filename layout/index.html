@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navigation">
@@ -11,16 +18,17 @@
 
       <div class="navigation__search">
         <div class="navigation__filter">
-          <label class="navigation__label">FILTER BY</label>
-          <select class="navigation__select">
+          <label>filter by</label>
+          <select>
+            <option>All</option>
             <option>Jackets</option>
             <option>Womens</option>
             <option>Men</option>
           </select>
         </div>
         <div class="navigation__sort">
-          <label class="navigation__label">SORT BY</label>
-          <select class="navigation__select">
+          <label>sort by</label>
+          <select>
             <option>Featured</option>
             <option>Price</option>
             <option>Date</option>
@@ -32,14 +40,13 @@
 
     <section class="products">
       <div class="product">
-        <span class="product__sale">SALE</span>
         <div class="product__img">
           <img
             src="https://cdn.shopify.com/s/files/1/0938/8938/products/10231100205_1_1315x1800_300_CMYK_1080x.jpeg"
             alt=""
           />
         </div>
-        <div>
+        <div class="product__info">
           <h5 class="product__name">Haze Varsity</h5>
           <h6 class="product__price">$132.86</h6>
         </div>
@@ -52,7 +59,19 @@
             alt=""
           />
         </div>
-        <div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product__price">$132.86</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10231100205_1_1315x1800_300_CMYK_1080x.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
           <h5 class="product__name">Haze Varsity</h5>
           <h6 class="product__price">$132.86</h6>
         </div>
@@ -65,7 +84,56 @@
             alt=""
           />
         </div>
-        <div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product__price">$132.86</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10231100205_1_1315x1800_300_CMYK_1080x.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product__price">$132.86</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10231100205_1_1315x1800_300_CMYK_1080x.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product__price">$132.86</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10231100205_1_1315x1800_300_CMYK_1080x.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product__price">$132.86</h6>
+        </div>
+      </div>
+      <div class="product">
+        <span class="product__sale">SALE</span>
+        <div class="product__img">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10231100205_1_1315x1800_300_CMYK_1080x.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
           <h5 class="product__name">Haze Varsity</h5>
           <h6 class="product__price">$132.86</h6>
         </div>
