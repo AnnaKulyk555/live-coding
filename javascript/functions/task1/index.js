@@ -1,66 +1,50 @@
-// console.log('Hello!');
+function getSenseOfLife() {
+  return 42;
+}
 
-// function getSenseOfLife() {
-//   console.log(42);
-// }
+const res = getSenseOfLife();
+console.log(res);
 
-// const res = getSenseOfLife();
-// console.log(res);
+console.log(getSenseOfLife());
 
-// console.log(getSenseOfLife());
+function getSquared(num) {
+  return num * num;
+}
 
-// function getSquared(num) {
-//   return num * num;
-// }
+console.log(getSquared(5));
+console.log(getSquared(0));
+console.log(getSquared(-4));
 
-// console.log(getSquared(5));
-// console.log(getSquared(0));
-// console.log(getSquared(-4));
+function sum(firstNum, secondNum) {
+  return firstNum + secondNum;
+}
 
-// function sum(firstNum, secondNum) {
-//   return firstNum + secondNum;
-// }
+console.log(sum(1, 2));
+console.log(sum(-1, 6));
+console.log(sum(0, 2));
+console.log(sum(1, 2, 100));
 
-// console.log(sum(1, 2));
-// console.log(sum(-1, 6));
-// console.log(sum(0, 2));
-// console.log(sum(1, 2, 100));
+function fetMessage(age) {
+  console.log('I am ' + age + ' years old');
+}
 
-// function fetMessage(age) {
-//   console.log('I am ' + age + ' years old');
-// }
+console.log(fetMessage(15));
+console.log(fetMessage(100));
 
-// console.log(fetMessage(15));
-// console.log(fetMessage(100));
+let mult = (firstNumber, secondNumber) => firstNumber * secondNumber;
 
-//option 1
+console.log(mult(1));
+console.log(mult(3, 5));
+console.log(mult);
 
-// let mult = (firstNumber, secondNumber) => {
-//   return firstNumber * secondNumber;
-// };
+const square = number => number * number;
 
-//option 2
+console.log(square(2));
+console.log(square(-50));
+console.log(square(0));
 
-//let mult = (firstNumber, secondNumber) => firstNumber * secondNumber;
+const getMagicNumber = () => 17;
 
-//option 3
-
-// let mult = function (firstNumber, secondNumber = 1) {
-//   return firstNumber * secondNumber;
-// };
-
-// console.log(mult(1));
-// console.log(mult(3, 5));
-// console.log(mult);
-
-// const square = number => number * number;
-
-// console.log(square(2));
-// console.log(square(-50));
-// console.log(square(0));
-
-// const getMagicNumber = () => 17;
-
-// console.log(getMagicNumber());
-// console.log(getMagicNumber);
-// console.log(getMagicNumber(2));
+console.log(getMagicNumber());
+console.log(getMagicNumber);
+console.log(getMagicNumber(2));
